@@ -1,0 +1,17 @@
+name: id_card_selfie
+description: ID Card Selfie Camera Plugin.
+version: 1.0.0
+homepage: https://kakzaki.my.id
+
+environment:
+  sdk: '>=2.15.0 <3.0.0'
+
+dependencies:
+  camera: ^0.9.4+5
+
+dev_dependencies:
+  lints: ^1.0.0
+  test: ^1.16.0
+
+assets:
+  - assets/overlay.png
